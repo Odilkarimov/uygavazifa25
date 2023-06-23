@@ -1,30 +1,38 @@
-console.log(add());
+let k = 5; n = 10;
+ 
 
-function add() {
-  return 3 + 12;
+for (let i = 1; i <= n; i++) {
+  console.log(k);
 }
 
-var a = 20;
 
-function checkPositive(a) {
-  if (a > 0) {
-    console.log(true);
-  } else {
-    console.log(false)
+let a = 1;
+let b = 15;
+for (let i = a; i<= b; i++){
+  console.log(i);
+}
+
+
+let a = 20;
+let b = 1;
+
+if (a>b) {
+  for (let i = a-1; i>b; i--){
+  console.log(i);
   }
 }
 
-checkPositive(a)
+let n = 10000;
+let bn = 0;
 
-var a = 20;
-var b = 10;
-
-function checkPositive(a) {
-  if (a > 0) {
-    console.log(true);
-  } else {
-    console.log(false)
-  }
+for (let i = 1; i <= 10; i++) {
+  bn += n * i;
 }
+console.log(bn);
 
-checkPositive(b)
+
+let n = 10000;
+let kg = 0.2;
+let h = n * kg;
+
+console.log("konfetning narxi: "+ h +" so'm ")
